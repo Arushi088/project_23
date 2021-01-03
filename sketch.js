@@ -28,7 +28,7 @@ function setup() {
 	groundSprite.shapeColor=color(255);
 
 	box1 = createSprite(500, 610, 20,100);
-	box1.shapeColor=color("blue");
+	box1.shapeColor=color("red");
 
 	box2 = createSprite(290,610, 20,100);
 	box2.shapeColor=color("blue");
