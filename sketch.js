@@ -31,15 +31,15 @@ function setup() {
 	box1.shapeColor=color("red");
 
 	box2 = createSprite(290,610, 20,100);
-	box2.shapeColor=color("blue");
+	box2.shapeColor=color("red");
 
 	box3 = createSprite(400,650, 200,20);
-	box3.shapeColor=color("blue");
+	box3.shapeColor=color("red");
 
 	engine = Engine.create();
 	world = engine.world;
 
-	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.8});
+	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.6});
 	Matter.Body.setStatic(packageBody, true);
 	World.add(world, packageBody);
 	
